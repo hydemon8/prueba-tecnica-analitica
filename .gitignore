@@ -1,0 +1,12 @@
+env/
+venv/
+naowee_env/
+.conda/
+
+__pycache__/
+*.pyc
+
+.ipynb_checkpoints/
+
+.DS_Store
+.vscode/
