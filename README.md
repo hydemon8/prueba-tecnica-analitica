@@ -70,6 +70,29 @@ docker run -p 8000:8000 prediccion-estudiantes
 ##  Uso de la API 
 La API cuenta con Swagger UI.
 
+Muestras utilizadas para el funcionamiento de la API:
+
+```bash
+{
+  "hours_studied": 2,
+  "previous_scores": 50,
+  "sleep_hours": 5,
+  "papers_practiced": 0,
+  "extracurricular_activities": "No"
+}
+```
+
+```bash
+{
+  "hours_studied": 8,
+  "previous_scores": 85,
+  "sleep_hours": 7,
+  "papers_practiced": 5,
+  "extracurricular_activities": "Yes"
+}
+```
+
+
 ###  Predicción 
 
 * **POST** `/predict`
